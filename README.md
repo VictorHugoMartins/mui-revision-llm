@@ -11,7 +11,7 @@
 
 A evolução constante de sistemas web modernos tem impulsionado a adoção de design systems como estratégia de manutenção sustentável e escalável. Ferramentas como o Material UI (MUI) se tornaram fundamentais no ecossistema React por proporcionarem uma padronização visual robusta, componentes reutilizáveis e maior produtividade no desenvolvimento frontend [Boduch 2019].
 
-Contudo, uma parcela expressiva de aplicações legadas ainda utiliza estilos manuais via CSS tradicional, inline styles ou bibliotecas como `styled-components`, o que dificulta a manutenção, reduz a legibilidade do código e compromete a uniformidade visual [REF]. A migração desses estilos para um design system como o MUI é, portanto, desejável, mas tipicamente onerosa, sujeita a erros humanos e dependente de conhecimento especializado.
+Contudo, uma parcela expressiva de aplicações legadas ainda utiliza estilos manuais via CSS tradicional, inline styles ou bibliotecas como `styled-components`, o que dificulta a manutenção, reduz a legibilidade do código e compromete a uniformidade visual [Thomas 2020]. A migração desses estilos para um design system como o MUI é, portanto, desejável, mas tipicamente onerosa, sujeita a erros humanos e dependente de conhecimento especializado.
 
 Neste contexto, os Modelos de Linguagem de Grande Escala (LLMs), como o GPT-3.5, têm se destacado por sua capacidade de compreender estruturas de código e gerar transformações coerentes a partir de instruções em linguagem natural [Ye et al. 2023]. Este trabalho propõe avaliar a viabilidade da utilização de LLMs na migração automatizada de componentes React com estilização manual para o Material UI, com foco em atributos de manutenibilidade, aderência ao design system e fidelidade visual.
 
@@ -130,5 +130,5 @@ Os resultados serão registrados em planilhas estruturadas e analisados estatist
 - Barr, E. T., et al. (2015). The plastic surgery hypothesis. FSE.
 - Kim, M., Zimmermann, T., & Nagappan, N. (2012). Crash graphs: A tool for debugging production failures. ICSE.
 - Allamanis, M., Barr, E. T., Bird, C., & Sutton, C. (2018). A Survey of Machine Learning for Big Code and Naturalness. ACM Computing Surveys.
-- THOMAS, Alice et al. Framework change for modernization of webservice. 2020.
+- Thomas, Alice et al. (2020) Framework change for modernization of webservice. 
 
